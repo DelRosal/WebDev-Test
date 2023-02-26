@@ -1,0 +1,44 @@
+
+body{
+    background-color: pink;
+}
+
+h2{
+    color:rgb(110, 12, 28);
+    font-size: 48px;
+
+}
+
+p{color:rgb(63, 11, 63);}
+
+.row{
+    margin-bottom: 15px;
+}
+
+.row > div {
+
+    padding:20px;
+}
+
+#logo{
+    width: 50px;
+    padding-left: 20px;
+}
+
+#userName{
+    color:brown;
+    
+}
+
+#dogAnimation{
+    width: 100px;
+    position:absolute;
+}
+
+#languages{
+    padding-top: 40px;
+}
+
+#languageButtons{
+    padding-left: 100px;
+}
