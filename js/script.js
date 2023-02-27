@@ -15,6 +15,8 @@ $(document).click(function(){
 
     $("#updateName").click(function(){
         $("#userName").text($("#inputName").val());
+        $("#cardText").text($("#comment").val());
+        $("#inputName").text("");
     });
 });
 
@@ -23,7 +25,7 @@ $(document).ready(function(){
         $("#dogAnimation").animate({left: "75%"});
     });
     $("#buttonReset").click(function(){
-        $("#dogAnimation").animate({left: "15%"});
+        $("#dogAnimation").animate({left: "10%"});
     });
 })
 
