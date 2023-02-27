@@ -42,3 +42,11 @@ p{color:rgb(63, 11, 63);}
 #languageButtons{
     padding-left: 100px;
 }
+
+#carouselStyle{
+    width: 500px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+

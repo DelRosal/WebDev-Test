@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>BootStrap and JQuery</title>
+        <title>Mini Reto I</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">    
     </head>
@@ -16,7 +16,7 @@
 
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Family</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Information</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 
@@ -25,10 +25,10 @@
 
      <div class="row">
         <div class="col-sm-5">
-            <h2>Adopt a pet !!</h2>
+            <h2>Adopt a Dachshund !!</h2>
                     <P>Name: <input type="text" class="form-control" id="inputName" value="" ></P>
                     <label for="comment"> Comment: </label>
-                    <textarea class="form-control" rows="4" id="comment"></textarea>
+                    <textarea class="form-control" rows="4" id="comment" ></textarea>
 
             <div class="row-sm-6" style="padding-top: 20px;">
                 <button type="button" class="btn btn-danger" id="updateName">Continue</button>
@@ -70,29 +70,50 @@
 
         <div class="row">
             <div class="col-sm-7">
-                <h2 id="subtitle">Lorem Ipsum</h2>
+                <h2 id="subtitle">Dachshund</h2>
             </div>
             <div class="col-sm-5" id="languageButtons">
-                <button type="button" class="btn btn-dark" id="sub1">English</button>
-                <button type="button" class="btn btn-dark" id="sub2">Italian</button>
-                <button type="button" class="btn btn-dark" id="sub3">Spanish</button>        
+                <div class="btn-group">
+                    <button type="button" class="btn btn-light btn-lg" id="sub1">English</button>
+                    <button type="button" class="btn btn-danger btn-lg" id="sub2">Italian</button>
+                    <button type="button" class="btn btn-light btn-lg" id="sub3">Spanish</button>        
+                </div>
+                
             </div>
 
         </div>
         <div class="row" >
-            <p id="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum et nunc in accumsan. Nulla ornare id eros vitae hendrerit. Proin fermentum nibh nibh, sit amet hendrerit mi mollis vel. Nunc et vehicula ligula. Integer ac ipsum porta, imperdiet sem et, ultricies tellus. Maecenas eleifend ex est, vel dignissim turpis mollis eu. Praesent sem libero, sodales in tincidunt id, bibendum id ligula. Etiam ex libero, facilisis pretium blandit eu, sodales at nisi.</p>
-        </div>
-        <div class="row">
-            <p>Nam non massa magna. Etiam lacus massa, scelerisque laoreet lorem vitae, mollis tempor est. Nam vehicula euismod euismod. Praesent semper urna nulla. Morbi dapibus ac massa pretium congue. Morbi sem risus, vulputate at ex ut, cursus tristique quam. Integer eget commodo turpis. In hac habitasse platea dictumst. Pellentesque a risus nec justo interdum elementum euismod in metus.</p>
+            <p id="sub-text"></p>
         </div>
     </div>
-  
+
+    
+    <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carouselStyle">
+            <div class="carousel-item active" >
+                <img class="d-block w-100" src="https://hellobark.com/wp-content/uploads/dachshund-puppy.jpg" alt="1">
+            </div>
+            <div class="carousel-item" id="carouselStyle" >
+                <img class="d-block w-100" src="https://animals.net/wp-content/uploads/2018/07/Dachshund-1-650x425.jpg" alt="2">
+            </div>
+            <div class="carousel-item" id="carouselStyle" >
+                <img class="d-block w-100" src="https://mynextpuppy.com/wp-content/uploads/2021/01/1826170_800.jpg" alt="3">
+            </div>
+            <div class="carousel-item" id="carouselStyle" >
+                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQicb-VGDIRnFst0Mb_tI8hLhEO1H7rD0Idkg&usqp=CAU" alt="4">
+            </div>
+        </div>
+
+    </div>
 
 
+
+      
 
         <script src="js/jquery-3.6.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/"></script>
 
     </body>
 

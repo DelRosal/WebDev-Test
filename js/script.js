@@ -1,14 +1,14 @@
 $(document).click(function(){
     $("#sub1").click(function(){
-        $("#subtitle").text("Welcome :)");
+        $("#subtitle").text("Dachshund :)");
         showText('sub-text','sub-text-1.txt');
     });
     $("#sub2").click(function(){
-        $("#subtitle").text("Benvenuto :)");
+        $("#subtitle").text("Bassotto :)");
         showText('sub-text','sub-text-2.txt');
     });
     $("#sub3").click(function(){
-        $("#subtitle").text("Bienvenid@ :)");
+        $("#subtitle").text("Perro Salchicha :)");
         showText('sub-text','sub-text-3.txt');
     });
 
@@ -16,7 +16,6 @@ $(document).click(function(){
     $("#updateName").click(function(){
         $("#userName").text($("#inputName").val());
         $("#cardText").text($("#comment").val());
-        $("#inputName").text("");
     });
 });
 
@@ -28,6 +27,14 @@ $(document).ready(function(){
         $("#dogAnimation").animate({left: "10%"});
     });
 })
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+
+$('.carousel').carousel({
+    interval: 2000
+  })
 
 function showText(id,file){
     var xhttp;
